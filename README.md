@@ -1,0 +1,1 @@
+# Repositório do Curso "Terraform - Do Básico ao Avançado" do Professor Daniel Gil
