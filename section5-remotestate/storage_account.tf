@@ -19,6 +19,6 @@ resource "azurerm_storage_account" "sa_curso_terraform" {
 
 resource "azurerm_storage_container" "container" {
   name                  = "vhds"
-  storage_account_id    = azurerm_storage_account.sa_curso_terraform.id
+  storage_account_name  = azurerm_storage_account.sa_curso_terraform.name
   container_access_type = "private"
 }
