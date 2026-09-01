@@ -11,6 +11,10 @@ resource "azurerm_storage_account" "sa_curso_terraform" {
   account_replication_type = var.replication
 
   tags = local.common_tags
+
+  blob_properties {
+    versioning_enabled = true
+  }
 }
 
 resource "azurerm_storage_container" "container" {
