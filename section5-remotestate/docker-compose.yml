@@ -1,0 +1,6 @@
+services:
+  # Emulador AWS (Porta 4566)
+  floci-aws:
+    image: floci/floci:latest
+    ports:
+      - "4566:4566"
