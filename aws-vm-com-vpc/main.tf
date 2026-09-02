@@ -18,6 +18,7 @@ provider "aws" {
 
   default_tags {
     tags = {
+      Project = "testeAWS"
       owner = "raulsousadev"
       managed-by = "Terraform"
     }
